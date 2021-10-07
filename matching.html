@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matching Cards</title>
+    <!-- <link rel="stylesheet" href="matching.css" type="text/css"> -->
+    <style>
+        @import "matching.css";
+    </style>
+    <script src="matching.js">
+        // alert("Hello World");
+    </script>
+</head>
+<body>
+    <div class="restart">
+        <button onclick="restart()">RESTART</button>
+
+    </div>
+
+    <div id = "stopwatch" class = "timer">
+        00:00:00
+        timer();
+    </div>
+
+    <div class="cards">
+        <!-- <img src="Image/A.jpg">
+        <img src="Image/A(1).jpg">
+        <img src="Image/2.jpg">
+        <img src="Image/2(1).png">
+        <img src="Image/K.png">
+        <img src="Image/K(1).jpg"> -->
+        <div class="card">
+            <img src="Image/backdesign.jpg" id="img1" onclick="flipCard('img1')">
+        </div>
+        <div class="card">
+            <img src="Image/backdesign.jpg" id="img2" onclick="flipCard('img2')">
+        </div>
+        <div class="card">
+            <img src="Image/backdesign.jpg" id="img3" onclick="flipCard('img3')">
+        </div>
+        <div class="card">
+            <img src="Image/backdesign.jpg" id="img4" onclick="flipCard('img4')">
+        </div>
+        <div class="card">
+            <img src="Image/backdesign.jpg" id="img5" onclick="flipCard('img5')">
+        </div>
+        <div class="card">
+            <img src="Image/backdesign.jpg" id="img6" onclick="flipCard('img6')">
+        </div>
+
+    </div>
+
+</body>
+
+</html>

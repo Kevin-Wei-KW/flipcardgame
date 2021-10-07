@@ -1,0 +1,28 @@
+.cards{
+    height: 300px;
+    width: 100%;
+    text-align:center;
+}
+
+.card{
+    height: 250px;
+    width: 15%;
+    margin: auto;
+    display:table;
+    float:left;
+    text-align: center;
+}
+
+.card img{
+    margin:auto;
+    height: 250px;
+    width: 180px;
+}
+
+.timer {
+    text-align:center;
+}
+
+.restart button{
+    margin-bottom: 30px;
+}
